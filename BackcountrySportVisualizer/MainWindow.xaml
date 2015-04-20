@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Backcountry Sport Visualizer" Height="350" Width="525"
         xmlns:gm="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation">
-    <Grid>
+    <Grid Name="grid">
         <gm:GMapControl Name="map" Zoom="13" MaxZoom="24" MinZoom="1" />
         <RadioButton Name="topoRadio" Content="USGS Topo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="13" Width="70" IsChecked="True"/>
         <RadioButton Name="bingRadio" Content="Bing Hybrid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,10,0,0" Height="13" Width="71" IsChecked="True"/>

@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackcountrySportVisualizer", "BackcountrySportVisualizer\BackcountrySportVisualizer.csproj", "{883E8167-7850-4DC0-A311-0638B5ADD97D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{F3C019B3-9943-40DE-B7AE-54189A3F7C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "DataLayerTests\Tests.csproj", "{151ECCC9-5912-4DD0-95D1-4748CD8CC275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{883E8167-7850-4DC0-A311-0638B5ADD97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{883E8167-7850-4DC0-A311-0638B5ADD97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{883E8167-7850-4DC0-A311-0638B5ADD97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C019B3-9943-40DE-B7AE-54189A3F7C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C019B3-9943-40DE-B7AE-54189A3F7C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C019B3-9943-40DE-B7AE-54189A3F7C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C019B3-9943-40DE-B7AE-54189A3F7C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151ECCC9-5912-4DD0-95D1-4748CD8CC275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151ECCC9-5912-4DD0-95D1-4748CD8CC275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151ECCC9-5912-4DD0-95D1-4748CD8CC275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151ECCC9-5912-4DD0-95D1-4748CD8CC275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
